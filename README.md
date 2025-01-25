@@ -1,4 +1,4 @@
-# BSnotify
+# BSnotify - docker container
 
 Use Bambu Studio or Orca Slicer with printers outside your LAN.
 
