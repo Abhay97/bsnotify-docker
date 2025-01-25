@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . .
 
 # Run the application
-CMD ["python", "bsnotify"]
+ENTRYPOINT ["python", "bsnotify"]
