@@ -28,9 +28,9 @@ jobs:
       # Step 3: Build the Docker image
       - name: Build Docker Image
         run: |
-          docker build -t ghcr.io/${{ github.repository_owner }}/bsnotify:latest .
+          docker build -t ghcr.io/abhay97/bsnotify:latest .
 
       # Step 4: Push the Docker image to GHCR
       - name: Push Docker Image
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/bsnotify:latest
+          docker push ghcr.io/abhay97/bsnotify:latest
